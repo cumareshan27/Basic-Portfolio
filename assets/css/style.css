@@ -1,0 +1,29 @@
+
+body{
+    text-align: center
+}
+
+header{
+    height: 100px;
+    background: #dddddd;
+    width: 100px;
+    z-index: 10;
+    position: fixed;
+}
+
+#banner {
+    /*background: url(baner.jpg);*/
+    width: 100px;
+    height: 500px;
+    position: fixed;
+    top: 100px;
+    background: #707070;
+}
+
+#content {
+    width: 100px;
+    position: relative;
+    top: 400px;
+    background: #ebebeb;
+    height: 1500px;
+}
