@@ -1,14 +1,18 @@
 
-body{
-    text-align: center
-}
+/*body{
+    text-align: left
+}*/
 
-header{
-    height: 100px;
+#header{
+    text-align: center;
+    -webkit-text-fill-color:greenyellow;
+    height: 75px;
     background: #dddddd;
-    width: 100px;
+    width: 100%;
     z-index: 10;
     position: fixed;
+    position: relative;
+    
 }
 
 #banner {
@@ -26,4 +30,10 @@ header{
     top: 400px;
     background: #ebebeb;
     height: 1500px;
+}
+#contact-info{
+    float: right;
+}
+#mmainbio-info{
+    float: left;
 }
