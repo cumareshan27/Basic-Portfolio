@@ -2,23 +2,76 @@
    
 
 header{
-   margin-bottom: 20px;
-   border-bottom: 20px;
-   margin-top: 0;
-   background-color: aqua;
+   width: 100%;
+   background-color: #ffffff;
+   border-bottom: 2px solid #cccccc; 
+   position: relative; 
+}
+
+.header-con {
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0 auto;
+    width: 960px;
+    display: table;
+}
+
+.header-con div {
+    display: table-cell;
+    width: 50%;
+   
+}
+.header-con div.left {
+    text-align: left;
+    vertical-align: top;
+    position: relative;
+
+ }
+
+.header-con div.right {
+    text-align: right
+}
+
+.header-con div.myname{
+    display: inline-block;
+    background-color: #4aaaa5;
+    height: 100%;
+    width: auto;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 20px 30px;
+    
+}
+.rightnav{
     
 }
 
-#supernav{
-    width: 900px;
-    margin: 0 auto;
-
+.rightnav ul{
+   
 }
 
-#navlinks{
+.rightnav ul li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    word-spacing: 1cm;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-right: 1px solid #777777;
+}
+
+.rightnav ul li:last-child{
+    border: none;
+}
+
+
+
+#navs{
+    
+    width: 60%;
+    margin-top: 0 auto;
     float: right;
-    width: 250;
-    margin-top: 0px;
 
 }
 
