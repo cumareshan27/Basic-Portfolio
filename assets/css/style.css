@@ -79,6 +79,9 @@ a:hover, a:focus{
     border: none;
 }
 
+h3{
+    color: #4aaaa5;
+}
 .body{
     padding: 20px;
     width: 100%;
@@ -89,9 +92,23 @@ a:hover, a:focus{
 .body-con{
     width: 960px; 
     margin: auto;
-    padding: 0;
+    padding: 10px;
     background-color: white;
     /* border-right: 20px solid #efefef */
+}
+
+.email-con{
+    margin: 10px;
+    padding: 10px;
+}
+
+.email-con input{
+    width:80%;
+    margin-left: 10%;
+}
+
+.email-con input.email-text{
+    line-height: 75px;
 }
 
 img{
