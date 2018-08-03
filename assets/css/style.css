@@ -145,10 +145,46 @@ img{
     /* display: flex; */
 }
 
-.row1{
-    border: blue solid;
-    /* clear::fix; */
+.outter-con{
+    border: #777777 solid;
+
 }
+
+.row1{
+    margin: 10px;
+    border: rebeccapurple solid;
+    height: 90%;
+
+}
+
+.box1{
+    position: relative;
+    /* float: left; */
+    width: 40%;
+    margin: 1.6%;
+    /* display: inline; */
+    
+}
+.box1 img{
+    border: blue solid;
+    position: relative;
+}
+
+/* .box1{
+    position: relative;
+    float: left;
+    /* display: inline; */
+    
+
+.box1 img{
+    border: blue solid;
+    width: 40%;
+    margin: 10%;
+    position: relative;
+}
+
+    
+
 /* p{
     text-align: justify;
 } */
